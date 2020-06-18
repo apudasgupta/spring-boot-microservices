@@ -21,7 +21,7 @@ My-Microservice-Discovery-Client :
 	run on port 8090
 
 	It has two endpoint 
-	http://localhost:8090/user/details
+	http://localhost:8090/user/getDetailsAll
 	http://localhost:8090/user/getDetailsById?userId=1
 	
 	UserDetail model is as follows:
