@@ -1,7 +1,7 @@
 # spring-boot-microservices
 Spring Boot Microservices using Eureka for Service Discovery
 
-This is a sample work to demonstrate Micrservice Registration and Discovery - using Eureka in Spring Boot Project.
+This is a sample work to demonstrate Microservice Registration and Discovery - using Eureka in Spring Boot Project.
 
 It contains 4 separate Spring Boot Maven Projects.
 1) My-Microservice-1 : run on port 8091
@@ -20,7 +20,7 @@ having application name respectively user-info-service and user-contact-service
 My-Microservice-Discovery-Client :
 	run on port 8090
 
-	It has two endpoint 
+	It has two endpoints: 
 	http://localhost:8090/user/getDetailsAll
 	http://localhost:8090/user/getDetailsById?userId=1
 	
